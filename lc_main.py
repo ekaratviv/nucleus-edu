@@ -47,7 +47,7 @@ client = Client()
 # import os
 # openai_api_key = os.getenv("OPENAI_API_KEY")
 
-openai_api_key = st.secrets.['OPENAI_API_KEY']
+openai_api_key = st.secrets['OPENAI_API_KEY']
 
 # Lesson selection sidebar
 lesson_selection = st.sidebar.selectbox("Select Lesson", list(lesson_guides.keys()))
