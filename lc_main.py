@@ -44,26 +44,6 @@ lesson_guides = {
         "file": "lc_guides/Growth_Hormone_guide.txt",
         "description": "This lesson focuses on Growth hormone guide."
     },
-    # "Lesson 3: Language Models": {
-    #     "file": "lc_guides/models_guide.txt",
-    #     "description": "This lesson provides an overview of language models."
-    # },
-    # "Lesson 4: Memory": {
-    #     "file": "lc_guides/memory_guide.txt",
-    #     "description": "This lesson is about Memory."
-    # },
-    # "Lesson 5: Chains": {
-    #     "file": "lc_guides/chains_guide.txt",
-    #     "description": "This lesson provides information on Chains in LangChain, their types, and usage."
-    # },
-    # "Lesson 6: Retrieval": {
-    #     "file": "lc_guides/retrieval_guide.txt",
-    #     "description": "This lesson provides information on indexing and retrieving information using LangChain."
-    # },
-    # "Lesson 7: Agents": {
-    #     "file": "lc_guides/agents_guide.txt",
-    #     "description": "This lesson provides information on agents, tools, and toolkits."
-    # }
 }
 
 # Initialize LangSmith client
