@@ -8,11 +8,6 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import LLMChain
 from get_prompt import load_prompt, load_prompt_with_questions
 
-#from dotenv import load_dotenv
-
-# Load environment variables from .env
-#load_dotenv()
-
 
 st.set_page_config(page_title="GENERAL MEDICINE : Getting Started Class", page_icon="")
 st.title("GENERAL MEDICINE")
@@ -49,9 +44,10 @@ lesson_guides = {
 # Initialize LangSmith client
 client = Client()
 
-import os
-openai_api_key = os.getenv("OPENAI_API_KEY")
+# import os
+# openai_api_key = os.getenv("OPENAI_API_KEY")
 
+openai_api_key = secrets.['OPENAI_API_KEY']
 
 # Lesson selection sidebar
 lesson_selection = st.sidebar.selectbox("Select Lesson", list(lesson_guides.keys()))
